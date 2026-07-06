@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@layer base {
+    *{
+        font-family: 'Plus Jakarta Sans', 'brunson';
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+}
+
+@theme {
+    --color-primary: #CF2D32;
+    --color-secondary: #86252A;
+    --color-backdrop: #252525;
+    
+    --shadow-red: 0px 0px 20px 3px #CF2D32;
+    --blur-xxs: 2px;
+    --tracking-tightest: -0.1em;
+    
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-oswald: 'Oswald'
+}  
+
+@font-face {
+  font-family: 'Brunson';
+  src: url('./assets/fonts/Brunson.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@utility bg-hero-gradient {
+  background: linear-gradient(135deg, #1e1b4b 0%, #4c1d95 50%, #2563eb 100%);
+}
+
+@utility bg-login-gradient {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 30%, #ec4899 70%, #f43f5e 100%);
+}

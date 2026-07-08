@@ -16,17 +16,21 @@
 }
 
 @theme {
-    --color-primary: #CF2D32;
-    --color-secondary: #86252A;
-    --color-backdrop: #252525;
+  --color-brandRed: #D32F2F;
+  --color-brandDarkRed: #8B0000;
+  --color-brandGold: #C5A059;
+  --color-brandDark: #121212;
+  --color-backdrop: #252525;
+
+  --color-uastec-primary: #C4410F;
     
-    --shadow-red: 0px 0px 20px 3px #CF2D32;
-    --blur-xxs: 2px;
-    --tracking-tightest: -0.1em;
-    
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
-    --font-oswald: 'Oswald'
+  --shadow-red: 0px 0px 20px 3px #CF2D32;
+  --blur-xxs: 2px;
+  --tracking-tightest: -0.1em;
+  
+  --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+      'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-oswald: 'Oswald'
 }  
 
 @font-face {
@@ -40,6 +44,19 @@
   background: linear-gradient(135deg, #1e1b4b 0%, #4c1d95 50%, #2563eb 100%);
 }
 
+@utility bg-gradient-red {
+  background: linear-gradient(180deg, #D81717 0%, #E27E37 100%);
+}
+
+@utility bg-uastec {
+  background: linear-gradient(135deg, #E27E37 0%, #D81717 50%, #E27E37 100%);
+}
+
 @utility bg-login-gradient {
   background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 30%, #ec4899 70%, #f43f5e 100%);
+}
+
+@utility red-border-box {
+  border: 8px double #E27E37;
+  position: relative;
 }

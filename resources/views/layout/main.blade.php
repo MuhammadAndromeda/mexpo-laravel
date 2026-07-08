@@ -21,9 +21,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="">
+    @include('partials.navbar')
 
-    </header>
-    
+    <main class="w-full bg-no-repeat bg-cover bg-center" style="background-image: url({{ asset('images/background.jpg') }})">
+        @yield('content')
+    </main>
+
+    @include('partials.footer')
+
+    <script src="{{ asset('js/navbar.js') }}"></script>
+    <script src="{{ asset('js/animation.js') }}"></script>
 </body>
 </html>

@@ -13,3 +13,11 @@ Route::get('/login', function () {
 Route::get('/uastec', function () {
     return view('uastec');
 });
+
+Route::get('/imsc', function () {
+    return view('imsc');
+});
+
+Route::get('/mo', function () {
+    return view('mo');
+});

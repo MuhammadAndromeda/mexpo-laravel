@@ -241,4 +241,37 @@
             </div>
         </div>
     </section>
+
+    <section class="w-full h-screen bg-white gap-8 lg:gap-16 flex flex-col justify-center items-center">
+        <h1 class="text-brandRed text-center text-4xl lg:text-6xl font-black font-oswald uppercase">more information</h1>
+        <div class="w-full px-6 lg:px-30 gap-6 lg:gap-12 flex flex-col lg:flex-row justify-center items-start">
+            <div class="w-full">
+                <div class="px-6 lg:px-20">
+                    <div class="w-full py-3 lg:py-5 rounded-t-lg bg-gradient-red text-white text-center text-lg lg:text-2xl font-medium uppercase">regitration:</div>
+                </div>
+                <div class="w-full py-4 lg:py-6 px-8 lg:px-12 rounded-lg bg-gradient-red flex justify-start">
+                    <ul class="w-full text-white text-sm lg:text-lg list-disc font-medium">
+                        <li>Link:</li>
+                        <li><a href="https://bit.ly/RegistrationUASTEC2025" class="underline">https://bit.ly/RegistrationUASTEC2025</a> (menyusul)</li>
+                        <li>QR: (menyusul)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="w-full">
+                <div class="px-6 lg:px-20">
+                    <div class="w-full py-3 lg:py-5 rounded-t-lg bg-gradient-red text-white text-center text-lg lg:text-2xl font-medium uppercase">booklet:</div>
+                </div>
+                <div class="w-full py-4 lg:py-6 px-8 lg:px-12 rounded-lg bg-gradient-red gap-4 flex flex-col justify-center items-center">
+                    <p class="w-full text-white text-justify text-sm lg:text-lg font-medium">
+                        Untuk informasi lebih lengkap mengenai Universitas Airlangga Stock Exchange Competition 2025, silakan unduh booklet kami:
+                    </p>
+
+                    <a href="#" download="#" class="py-3 px-18 border-2 border-white rounded-lg hover:scale-105 text-white text-center text-sm lg:text-base font-medium transition-all duration-300">
+                        Download Book
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

@@ -21,3 +21,7 @@ Route::get('/imsc', function () {
 Route::get('/mo', function () {
     return view('mo');
 });
+
+Route::get('/ibcc', function () {
+    return view('ibcc');
+});

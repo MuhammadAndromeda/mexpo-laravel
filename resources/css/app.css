@@ -25,6 +25,7 @@
   --color-uastec-primary: #C4410F;
   --color-imsc-primary: #5549C0;
   --color-mo-primary: #E27E37;
+  --color-ibcc-primary: #E27E37;
     
   --shadow-red: 0px 0px 20px 3px #CF2D32;
   --blur-xxs: 2px;
@@ -58,6 +59,10 @@
   background: linear-gradient(180deg, #E27E37 14%, #879414 100%);
 }
 
+@utility bg-gradient-indigo {
+  background: linear-gradient(180deg, #FF964B 0%, #000F3D 100%);
+}
+
 @utility bg-uastec {
   background: linear-gradient(135deg, #E27E37 0%, #D81717 50%, #E27E37 100%);
 }
@@ -68,6 +73,10 @@
 
 @utility bg-mo {
   background: linear-gradient(135deg, #FFBF52 0%, #E27E37 50%, #879414 100%);
+}
+
+@utility bg-ibcc {
+  background: linear-gradient(135deg, #03021B 0%, #000095 25%, #7550A1 45%, #FFCE19 100%);
 }
 
 @utility bg-login-gradient {

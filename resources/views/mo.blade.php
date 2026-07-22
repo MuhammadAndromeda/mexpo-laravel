@@ -58,8 +58,8 @@
         </div>
     </section>
 
-    <section class="bg-backdrop py-10 lg:py-20 px-8 lg:px-12 relative overflow-hidden gap-12 flex flex-col">
-        <header class="container mx-auto flex flex-col md:flex-row justify-between items-start">
+    <section class="bg-backdrop py-10 lg:py-20 px-4 lg:px-12 relative overflow-hidden gap-12 flex flex-col">
+        <header class="container px-4 lg:px-0 mx-auto flex flex-col md:flex-row justify-between items-start">
             <div class="text-indigo-400 gap-2 flex justify-center items-center">
                 <svg class="h-12 w-12 text-mo-primary" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l2.4 7.4h7.6l-6.1 4.5 2.3 7.1-6.2-4.5-6.2 4.5 2.3-7.1-6.1-4.5h7.6z"></path></svg>
                 <p class="text-white text-xl text-left font-oswald font-bold uppercase">visit the website</p>
@@ -75,55 +75,55 @@
         </header>
 
         <!-- BEGIN: TimelineTable -->
-        <div class="w-full overflow-x-hidden">
-            <table class="w-full h-auto border-2 border-white shadow-lg shadow-black/60">
+        <div class="w-full">
+            <table class="w-full h-auto relative border-2 border-white shadow-lg shadow-black/60">
                 <thead class="w-full h-auto border-2 border-gray-100">
                     <tr class="w-full h-auto border-2 border-gray-100">
-                        <th class="w-max py-5 h-auto border-2 border-white bg-gradient-orange uppercase tracking-wide text-center text-3xl text-white font-oswald font-bold">keterangan</th>
-                        <th class="w-max py-5 h-auto border-2 border-white bg-gradient-orange uppercase tracking-wide text-center text-3xl text-white font-oswald font-bold">keterangan</th>
-                        <th class="w-max py-5 h-auto border-2 border-white bg-gradient-orange uppercase tracking-wide text-center text-3xl text-white font-oswald font-bold">keterangan</th>
+                        <th class="w-max px-4 py-5 h-auto border-2 border-white bg-gradient-orange uppercase tracking-wider text-center text-sm lg:text-3xl text-white font-oswald font-bold">keterangan</th>
+                        <th class="w-max px-4 py-5 h-auto border-2 border-white bg-gradient-orange uppercase tracking-wider text-center text-sm lg:text-3xl text-white font-oswald font-bold">keterangan</th>
+                        <th class="w-max px-4 py-5 h-auto border-2 border-white bg-gradient-orange uppercase tracking-wider text-center text-sm lg:text-3xl text-white font-oswald font-bold">keterangan</th>
                     </tr>
                 </thead>
                 <tbody class="w-full h-auto border-2 border-gray-100">
                     <tr class="w-full h-auto border-2 border-gray-100">
-                        <td rowspan="3" class="w-max py-4 h-auto border-2 border-white bg-gradient-orange capitalize text-center text-lg text-white font-bold">Registration</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">Batch 1 (Early Bird)</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">13 Juli - 19 Juli 2026</td>
+                        <td rowspan="3" class="w-max px-2 py-4 h-auto border-2 border-white bg-gradient-orange capitalize text-center text-xs lg:text-base text-white font-bold">Registration</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">Batch 1 (Early Bird)</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">13 Juli - 19 Juli 2026</td>
                     </tr>
                     <tr class="w-full h-auto border-2 border-gray-100">
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">Batch 2</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">22 Juli - 31 Agustus 2026</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">Batch 2</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">22 Juli - 31 Agustus 2026</td>
                     </tr>
                     <tr class="w-full h-auto border-2 border-gray-100">
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">Batch 2</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">22 Juli - 31 Agustus 2026</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">Batch 2</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">22 Juli - 31 Agustus 2026</td>
                     </tr>
                     <tr class="w-full h-auto border-2 border-gray-100">
-                        <td class="w-max py-4 h-auto border-2 border-white bg-gradient-orange capitalize text-center text-xl text-white font-bold">Pre Event</td>
-                        <td class="w-max py-4 h-auto border-2 border-white bg-gradient-orange capitalize text-center text-xl text-white font-bold">Webinar</td>
-                        <td class="w-max py-4 h-auto border-2 border-white bg-gradient-orange capitalize text-center text-xl text-white font-bold">5 September 2026</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white bg-gradient-orange capitalize text-center text-sm lg:text-xl text-white font-bold">Pre Event</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white bg-gradient-orange capitalize text-center text-sm lg:text-xl text-white font-bold">Webinar</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white bg-gradient-orange capitalize text-center text-sm lg:text-xl text-white font-bold">5 September 2026</td>
                     </tr>
                     <tr class="w-full h-auto border-2 border-gray-100">
-                        <td rowspan="4" class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">main event</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">Preliminary Round</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">11 Oktober 2026</td>
+                        <td rowspan="4" class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">main event</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">Preliminary Round</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">11 Oktober 2026</td>
                     </tr>
                     <tr class="w-full h-auto border-2 border-gray-100">
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">Infografis</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">19 - 24 Oktober 2026</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">Infografis</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">19 - 24 Oktober 2026</td>
                     </tr>
                     <tr class="w-full h-auto border-2 border-gray-100">
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">Semifinal</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">21 November 2026</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">Semifinal</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">21 November 2026</td>
                     </tr>
                     <tr class="w-full h-auto border-2 border-gray-100">
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">Final</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">22 November 2026</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">Final</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">22 November 2026</td>
                     </tr>
                     <tr class="w-full h-auto border-2 border-gray-100">
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">Awarding</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">Awarding Mexpo</td>
-                        <td class="w-max py-4 h-auto border-2 border-white capitalize text-center text-lg text-white font-medium">22 November 2026</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">Awarding</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">Awarding Mexpo</td>
+                        <td class="w-max px-2 py-4 h-auto border-2 border-white capitalize text-center text-xs lg:text-base text-white font-medium">22 November 2026</td>
                     </tr>
                 </tbody>
             </table>

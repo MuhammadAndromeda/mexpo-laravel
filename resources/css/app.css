@@ -44,7 +44,7 @@
 }
 
 @utility bg-hero-gradient {
-  background: linear-gradient(135deg, #1e1b4b 0%, #4c1d95 50%, #2563eb 100%);
+  background: linear-gradient(135deg, #973131 0%, #E0A75E 50%, #F9D689 100%);
 }
 
 @utility bg-gradient-red {
@@ -56,7 +56,7 @@
 }
 
 @utility bg-gradient-orange {
-  background: linear-gradient(180deg, #E27E37 14%, #879414 100%);
+  background: linear-gradient(180deg, #78A4CB 14%, #E5CB90 100%);
 }
 
 @utility bg-gradient-indigo {
@@ -72,7 +72,7 @@
 }
 
 @utility bg-mo {
-  background: linear-gradient(135deg, #FFBF52 0%, #E27E37 50%, #879414 100%);
+  background: linear-gradient(135deg, #78A4CB 0%, #E5CB90 50%, #EEEEEE 100%);
 }
 
 @utility bg-ibcc {

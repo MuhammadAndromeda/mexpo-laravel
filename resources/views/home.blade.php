@@ -3,8 +3,8 @@
     <section class="w-full h-screen px-8 md:px-25 py-10 bg-hero-gradient flex flex-col-reverse md:flex-row justify-between items-center">
         <div class="w-full md:container mx-auto gap-1 lex flex-col justify-center items-center md:items-start z-10">
             <div class="gap-2 md:gap-4 flex flex-col justify-center items-center md:items-start">
-                <h1 class="text-white text-6xl lg:text-8xl text-center md:text-left font-oswald font-black heading-bold uppercase leading-tight">
-                    WELCOME TO<br/>OUR EVENT
+                <h1 class="text-white text-6xl lg:text-7xl text-center md:text-left font-oswald font-black heading-bold uppercase leading-tight">
+                    WELCOME TO THE 16TH MANAGEMENT EXPO
                 </h1>
                 <p class="text-white text-xl md:text-2xl mb-5 md:mb-8 font-semibold">
                     16th Management Expo
